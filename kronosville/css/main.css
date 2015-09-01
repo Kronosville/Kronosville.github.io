@@ -1,0 +1,32 @@
+body {
+  background: url(http://i.imgur.com/CWETXmd.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+#status {
+  font-family: monospace;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-family: 'EB Garamond', serif;
+}
+
+.jumbotron h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.jumbotron h4 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.gold {
+  font-weight: bold;
+  color: #CC9900;
+}
+
+.smaller {
+  font-size: 0.75em;
+}
