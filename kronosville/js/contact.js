@@ -9,7 +9,7 @@ function sendEmail() {
 	var message = $("#message-field").value;
 	
 	var error = false;
-	$.ajax("contact.php", {
+	$.ajax("../php/contact.php", {
 		type: "POST",
 		
 		data: {
