@@ -30,3 +30,7 @@ body {
 .smaller {
   font-size: 0.75em;
 }
+
+table img {
+	padding: 5px;
+}
