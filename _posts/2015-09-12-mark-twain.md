@@ -21,5 +21,7 @@ Abraham is Ellie and Mark Twain is Joel. Mark Twain will be bitten by a vampire 
 
 Mark Twain's father was thought to be dead, but he actually ran away to become one with the hamsters. He is now a hamster lord. 
 
+
+Thanks to this story, Abe decided to become president to prevent reptillians from ever manipulating America again.
 ### **Casting ideas**:
 Snape for Taylor Swift or Justin Bieber?
