@@ -6,7 +6,7 @@ kv_logo: false
 ---
 
 <hr>
-<img src="{{ site.baseurl }}/imgs/mt-poster.jpg" title="Mark Twain and Abraham Lincoln: Vampire Hunters" alt="Mark Twain: Vampire Hunter poster" width="550">
+<img src="http://i.imgur.com/YiYGYpg.jpg" title="Mark Twain and Abraham Lincoln: Vampire Hunters" alt="Mark Twain: Vampire Hunter poster" width="550">
 
 Chronian Productions presents...
 Coming to cinemas 2025... (or something like that)
