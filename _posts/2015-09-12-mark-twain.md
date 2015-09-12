@@ -19,5 +19,7 @@ Taylor Swift, Justin Bieber, One Direction. **We must also fit aliens in here so
 The end will involve Mark Twain being bitten, and then it'll be something like this: https://youtu.be/5TwdUn8WqOk?t=19m8s
 Abraham is Ellie and Mark Twain is Joel. Mark Twain will be bitten by a vampire and lie that's it's a scratch, and then Abraham will ask if he swears it's a scratch, and MT says "yeah yeah sure", and Abe knows that he's lying and says "Okay."
 
+Mark Twain's father was thought to be dead, but he actually ran away to become one with the hamsters. He is now a hamster lord. 
+
 ### **Casting ideas**:
 Snape for Taylor Swift or Justin Bieber?
