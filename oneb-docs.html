@@ -1,119 +1,69 @@
 ---
+
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>1b8</title>
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!-- Bootstrap theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- EB Garamond -->
-  <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-  <!-- Page styles -->
-  <link href="kv/css/main.css" rel="stylesheet" type="text/css">
-
-  <!-- Favicon -->
-  <link href="imgs/favicon.png" rel="icon" type="image/png">
-
-</head>
-<body>
-
-  {% include kronosville-navbar.html %}
-
-  <div class="jumbotron">
-    <div class="container">
-      <h4><a href="kv">Home</a> / <a href="kv/help">Help</a> / OneB Documentation</h4>
-      <!-- KRONOSVILLE -->
-      <img src="kv/imgs/logo.png" width="400px">
-
-      <h2>Kronosville Custom Plugin (OneB) Documentation</h2>
-      <hr>
-
-      <table class="doc-table">
-        <thead>
-          <tr>
-            <th colspan="5">Commands</th>
-          </tr>
-          <tr>
-            <th>Name</th>
-            <th>Usage</th>
-            <th>Description</th>
-            <th>Aliases</th>
-            <th>Ranks</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>/dovahzul</td>
-            <td>[E|D] [message]</td>
-            <td>Translate to and from the language of the dragons. [E|D] is the language to translate to, E being English and D being Dovahzul, or Dragon.</td>
-            <td>/dt, /dovah, /dov</td>
-            <td>Donor</td>
-          </tr>
-          <tr>
-            <td>/dovahzulchat</td>
-            <td></td>
-            <td>Toggle Dovahzul chat mode. All messages sent while in Dovahzul chat mode will automatically be translated into Dovahzul.</td>
-            <td>/dc, /dtc, /dchat</td>
-            <td>Op</td>
-          </tr>
-          <tr id="pvp">
-            <td>/pvp</td>
-            <td></td>
-            <td>Toggle PvP on or off. Players with PvP off cannot damage other players, or be hit by other players themselves. Players with PvP on can hit other players, and can also be damaged by other players.</td>
-            <td>/pvptoggle, /togglepvp</td>
-            <td>All</td>
-          </tr>
-          <tr>
-            <td>/addlore</td>
-            <td>[add [lore]|set [lore]|delete]</td>
-            <td>Add lore to the item you're holding.</td>
-            <td>/lore, /al</td>
-            <td>Op</td>
-          </tr>
-          <tr>
-            <td>/rename</td>
-            <td>[name]</td>
-            <td>Rename the item you're holding.</td>
-            <td>/name</td>
-            <td>Op</td>
-          </tr>
-          <tr>
-            <td>/mailstaff</td>
-            <td>[message]</td>
-            <td>Mail all staff members.</td>
-            <td>/ms</td>
-            <td>All</td>
-          </tr>
-          <tr>
-            <td>/oneb</td>
-            <td>reload</td>
-            <td>Reload the config.</td>
-            <td></td>
-            <td>Op</td>
-          </tr>
-        </tbody>
-      </table>
-
-      </div>
-    </div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+<hr>
+<table class="doc-table">
+  <thead>
+    <tr>
+      <th colspan="5">Commands</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Usage</th>
+      <th>Description</th>
+      <th>Aliases</th>
+      <th>Ranks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/dovahzul</td>
+      <td>[E|D] [message]</td>
+      <td>Translate to and from the language of the dragons. [E|D] is the language to translate to, E being English and D being Dovahzul, or Dragon.</td>
+      <td>/dt, /dovah, /dov</td>
+      <td>Donor</td>
+    </tr>
+    <tr>
+      <td>/dovahzulchat</td>
+      <td></td>
+      <td>Toggle Dovahzul chat mode. All messages sent while in Dovahzul chat mode will automatically be translated into Dovahzul.</td>
+      <td>/dc, /dtc, /dchat</td>
+      <td>Op</td>
+    </tr>
+    <tr id="pvp">
+      <td>/pvp</td>
+      <td></td>
+      <td>Toggle PvP on or off. Players with PvP off cannot damage other players, or be hit by other players themselves. Players with PvP on can hit other players, and can also be damaged by other players.</td>
+      <td>/pvptoggle, /togglepvp</td>
+      <td>All</td>
+    </tr>
+    <tr>
+      <td>/addlore</td>
+      <td>[add [lore]|set [lore]|delete]</td>
+      <td>Add lore to the item you're holding.</td>
+      <td>/lore, /al</td>
+      <td>Op</td>
+    </tr>
+    <tr>
+      <td>/rename</td>
+      <td>[name]</td>
+      <td>Rename the item you're holding.</td>
+      <td>/name</td>
+      <td>Op</td>
+    </tr>
+    <tr>
+      <td>/mailstaff</td>
+      <td>[message]</td>
+      <td>Mail all staff members.</td>
+      <td>/ms</td>
+      <td>All</td>
+    </tr>
+    <tr>
+      <td>/oneb</td>
+      <td>reload</td>
+      <td>Reload the config.</td>
+      <td></td>
+      <td>Op</td>
+    </tr>
+  </tbody>
+</table>

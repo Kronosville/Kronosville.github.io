@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>{{ page.title }} - Kronosville</title>
+  <title>{{ page.title }} - 1b8</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,17 +24,17 @@
   <!-- EB Garamond -->
   <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   <!-- Page styles -->
-  <link href="{{ site.baseurl }}/kv/css/main.css" rel="stylesheet" type="text/css">
+  <link href="kv/css/main.css" rel="stylesheet" type="text/css">
 
   <!-- Favicon -->
-  <link href="{{ site.baseurl }}/kv/imgs/favicon.png" rel="icon" type="image/png">
+  <link href="{{ site.baseurl }}/imgs/favicon.png" rel="icon" type="image/png">
 
 </head>
 <body>
 
   {% include kronosville-navbar.html %}
 
-  <div class="jumbotron" align="center">
+  <div class="jumbotron">
     <div class="container">
 
       <h4>
@@ -45,16 +45,19 @@
         {% endif %}
       </h4>
 
-      <!-- KRONOSVILLE -->
-      <img src="{{ site.baseurl }}/kv/imgs/logo.png" width="400px">
+      {% if page.kv_logo %}
+        <img src="kv/imgs/logo.png" width="400px">
+      {% endif %}
 
       <h2>{{ page.title }}</h2>
+
       {{ content }}
+
+      </div>
     </div>
-  </div>
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Bootstrap JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+  </html>
