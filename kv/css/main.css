@@ -40,3 +40,7 @@ h1, h2, h4 {
 .doc-table tr {
   border-bottom: 1px solid black;
 }
+
+#taste-table td {
+  font-size: 20px;
+}
