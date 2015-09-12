@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,27 +32,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#kv-navbar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-
-        <a class="navbar-brand">Kronosville</a>
-      </div>
-      <div class="collapse navbar-collapse" id="kv-navbar">
-        <ul class="nav navbar-nav">
-          <li><a href="kv">Home</a></li>
-          <li><a href="kv/donate">Support us</a></li>
-          <li><a href="kv/vote">Vote</a></li>
-          <li><a href="kv/staff">Staff</a></li>
-          <li><a href="kv/help">Help</a></li>
-          <li><a href="http://www.reddit.com/r/kronosville">Reddit</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-  </nav>
+  {% include kronosville-navbar.html %}
 
   <div class="jumbotron">
     <div class="container">
@@ -89,7 +71,7 @@
             <td>/dc, /dtc, /dchat</td>
             <td>Op</td>
           </tr>
-          <tr>
+          <tr id="pvp">
             <td>/pvp</td>
             <td></td>
             <td>Toggle PvP on or off. Players with PvP off cannot damage other players, or be hit by other players themselves. Players with PvP on can hit other players, and can also be damaged by other players.</td>

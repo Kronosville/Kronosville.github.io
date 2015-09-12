@@ -1,32 +1,27 @@
 var bodyEl = $("#email-form");
 
-var from = $("#from-field");
-var message = $("#message-field");
-
-function echo(msg) {
-	bodyEl.innerHTML = msg;
-}
+var mFrom = $("#from-field");
+var mMessage = $("#message-field");
 
 function sendEmail() {
-	
-	
+
 	var error = false;
 	$.ajax("../php/contact.php", {
 		type: "POST",
-		
+
 		data: {
-			from: from.value,
-			message: message.value
+			from: mFrom.value,
+			message: mMessage.value
 		},
-		
+
 		success: function(sent) {
 			if (sent == true) {
-				from.value = '';
-				message.value = '';
+				mFrom.value = '';
+				mMessage.value = '';
 			} else {error = true;}
 		},
 		error: function() {error = true;}
 	});
 	// TODO Format this text
-	echo(error ? "ERROR! Please contact 1b8... somehow..." : "E-mail sent!");
+	bodyEl.html(error ? "ERROR! Please contact 1b8... somehow..." : "E-mail sent!");
 }

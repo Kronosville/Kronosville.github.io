@@ -1,74 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Kronosville</title>
+---
+layout: kronosville
+title: Home
+kv_page: home
+base_loc: root
+---
+<p>
+  Kronosville is a survival server.<br>
+  PvP can be toggled via the /pvp command.<br>
+  Griefing is not allowed.<br>
+  For more info about the /pvp command, please see <a href="http://1b8.github.io/oneb-docs#pvp">the documentation</a>.
+</p>
+<h3>
+  <span class="label label-info">IP: mc.kronosville.net</span>
+</h3>
+<p id="status">Loading status...</p>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<!-- Bootstrap theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- Load MCPing pinger -->
+<script type="text/javascript">
+  var s = document.createElement("SCRIPT");
+  s.src = "js/pingserver.js";
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
-	<!-- EB Garamond -->
-	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-	<!-- Page styles -->
-	<link href="css/main.css" rel="stylesheet" type="text/css"/>
-	
-	<!-- Favicon -->
-	
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-default">
-	  <div class="container">
-	    <div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#kv-navbar" aria-expanded="false">
-		    <span class="sr-only">Toggle navigation</span>
-		  </button>
-		  
-		  <a class="navbar-brand">Kronosville</a>
-	    </div>
-	    <div class="collapse navbar-collapse" id="kv-navbar">
-		  <ul class="nav navbar-nav">
-		    <li class="active"><a href=".">Home</a></li>
-			<li><a href="donate">Support us</a></li>
-			<li><a href="vote">Vote</a></li>
-			<li><a href="staff">Staff</a></li>
-			<li><a href="help">Help</a></li>
-			<li><a href="http://www.reddit.com/r/kronosville">Reddit</a></li>
-		  </ul>
-		</div><!-- /.navbar-collapse -->
-	  </div><!-- /.container -->
-	</nav>
-	
-	<div class="jumbotron" align="center">
-	  <div class="container">
-	    <h4>Home</h4>
-	    <!-- KRONOSVILLE -->
-        <img src="imgs/logo.png" width="400px"/>
-	    <p>Kronosville is a survival pvp-toggle server.<br>
-	    Griefing is not allowed.</p>
-	    <h3>
-	      <span class="label label-info">IP: mc.kronosville.net</span>
-	    </h3>
-		<p id="status">Loading status...</p>
-	  </div>
-	</div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<!-- MCPing pinger -->
-	<script src="js/pingserver.js"></script>
-  </body>
-</html>
+  window.onload = function() {
+    document.body.appendChild(s);
+  }
+</script>
