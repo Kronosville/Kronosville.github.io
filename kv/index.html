@@ -3,6 +3,8 @@ layout: kronosville
 title: Home
 kv_page: home
 base_loc: root
+scripts:
+  - js/pingserver
 ---
 <p>
   Kronosville is a survival server.<br>
@@ -14,13 +16,3 @@ base_loc: root
   <span class="label label-info">IP: mc.kronosville.net</span>
 </h3>
 <p id="status">Loading status...</p>
-
-<!-- Load MCPing pinger -->
-<script type="text/javascript">
-  var s = document.createElement("SCRIPT");
-  s.src = "js/pingserver.js";
-
-  window.onload = function() {
-    document.body.appendChild(s);
-  }
-</script>
