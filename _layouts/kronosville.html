@@ -24,10 +24,10 @@
   <!-- EB Garamond -->
   <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   <!-- Page styles -->
-  <link href="{{ site.baseurl }}/kv/css/main.css" rel="stylesheet" type="text/css">
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
 
   <!-- Favicon -->
-  <link href="{{ site.baseurl }}/kv/imgs/favicon.png" rel="icon" type="image/png">
+  <link href="/imgs/favicon.png" rel="icon" type="image/png">
 
 </head>
 <body>
@@ -40,13 +40,11 @@
       <h4>
         {% if page.base_loc != 'root' %}
           {{ page.base_loc }} / {{ page.title }}
-        {% else %}
-          {{ page.title }}
         {% endif %}
       </h4>
 
       <!-- KRONOSVILLE -->
-      <img src="{{ site.baseurl }}/kv/imgs/logo.png" width="400px">
+      <img src="/imgs/logo.png" width="400px">
 
       <h2>{{ page.title }}</h2>
       {{ content }}
