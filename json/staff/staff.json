@@ -1,0 +1,23 @@
+[
+  {
+    "uuid": "03b187c5f22642469af2a7952f652d31",
+    "name": "Ninniy",
+    "rank": "owner",
+    "nick": "~&7Ninniy",
+    "desc": "An intergalactic sea slug. <del>She</del> It likes rice."
+  },
+  {
+    "uuid": "34eb9e87-564d-44a1-8591-8608ab491376",
+    "name": "1b8",
+    "rank": "coOwner",
+    "nick": "~D&ar_Po&ek&ae",
+    "desc": "Does stuff."
+  },
+  {
+    "uuid": "bf23c66fc64c42c9893f785991a3956f",
+    "name": "DrWily",
+    "rank": "moderator",
+    "nick": "off",
+    "desc": "He likes pranking people..."
+  }
+]
