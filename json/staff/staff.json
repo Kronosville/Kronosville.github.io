@@ -2,28 +2,28 @@
   {
     "uuid": "03b187c5f22642469af2a7952f652d31",
     "name": "Ninniy",
-    "rank": "owner",
+    "rank": "Owner",
     "nick": "~&7Ninniy",
-    "desc": "An intergalactic sea slug. <del>She</del> It likes rice."
+    "desc": "An intergalactic sea monster. It likes rice."
   },
   {
     "uuid": "34eb9e87-564d-44a1-8591-8608ab491376",
     "name": "1b8",
-    "rank": "coOwner",
+    "rank": "Co-Owner",
     "nick": "~D&ar_Po&ek&ae",
     "desc": "Does stuff."
   },
   {
     "uuid": "bf23c66fc64c42c9893f785991a3956f",
     "name": "DrWily",
-    "rank": "moderator",
+    "rank": "Moderator",
     "nick": "off",
     "desc": "He likes pranking people..."
   },
   {
     "uuid": "b4325bcc-f162-4874-831c-ec1dac1850c9",
     "name": "Cpl_OtterPaws",
-    "rank": "moderator",
+    "rank": "Moderator",
     "nick": "~&3Captain_&bOtterPirate",
     "desc": "Um... he's obsessed with the Avengers."
   }
